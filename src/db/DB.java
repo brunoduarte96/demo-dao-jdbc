@@ -50,8 +50,8 @@ public class DB {
 
     }
 
-    public static void closeStatment(Statement st ){
-        if (st != null){
+    public static void closeStatment(Statement st) {
+        if (st != null) {
             try {
                 st.close();
             } catch (SQLException e) {
@@ -63,8 +63,8 @@ public class DB {
 
     }
 
-    public static void closeResultset(ResultSet rs ){
-        if (rs != null){
+    public static void closeResultset(ResultSet rs) {
+        if (rs != null) {
             try {
                 rs.close();
             } catch (SQLException e) {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e41e40ab-949a-4192-8aa5-d52ab370015c" name="Changes" comment="Seller class">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/DepartmentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/SellerDao.java" afterDir="false" />
+    <list default="true" id="e41e40ab-949a-4192-8aa5-d52ab370015c" name="Changes" comment="DepartmentDao and SellerDao interfaces">
+      <change afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664138494239</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DepartmentDao and SellerDao interfaces">
+      <created>1664139193494</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664139193494</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Department class" />
     <MESSAGE value="Seller class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seller class" />
+    <MESSAGE value="DepartmentDao and SellerDao interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="DepartmentDao and SellerDao interfaces" />
   </component>
 </project>
